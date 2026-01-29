@@ -75,3 +75,10 @@ body{
     width: 220px;
     box-shadow: 0 0 10px wheat;
 }
+
+.search .btn{
+    border-radius: 50%;
+    border:2px solid black;
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+}
