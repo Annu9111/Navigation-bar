@@ -1,11 +1,12 @@
 *{
     margin:0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
-    background:url("background.jpg");
+    background: url("background.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,42 +21,40 @@ body{
     border-radius: 10px;
     display: flex;
     align-items: center;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .logo img{
     height: 50px;
     width: 60px;
     margin: 10px 10px;
-    border:2px solid white;
+    border: 2px solid white;
     border-radius: 50px;
-    
 }
 .logo img:hover{
     box-shadow: 0 0 12px white;
+
 }
+
 .navbar ul{
     display: flex;
     gap: 20px;
-}
-
-.navbar li {
-    list-style: none;   
 }
 
 .navbar li a{
     display: block;
     padding: 3px 10px;
     text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
+    color: white;
+    font-size: 17px;
     border-radius: 6px;
     transition: 0.3s;
+
 }
 
 .navbar li a:hover{
     color:black;
-    background:white;
-     box-shadow: 0 0 12px white;
+    background: white;
+    box-shadow: 0 0 12px white;
 
 }
 
@@ -64,7 +63,7 @@ body{
 }
 
 .search input{
-    padding: 7px 20px;
+    padding:7px 20px;
     border-radius: 10px;
     font-size: 14px;
     outline: none;
@@ -72,13 +71,14 @@ body{
     transition: 0.3s;
 }
 .search input:focus{
-    width: 220px;
-    box-shadow: 0 0 10px wheat;
+    width:220px;
+    box-shadow: 0 0 10px white;
 }
 
 .search .btn{
     border-radius: 50%;
-    border:2px solid black;
+    border: 2px solid black;
     cursor: pointer;
     box-shadow: 0 0 10px white;
 }
+
