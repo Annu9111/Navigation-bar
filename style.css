@@ -5,17 +5,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background: rgb(150, 250, 237);
+    background:url("background.jpg");
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar{
-    background-color: rgb(34, 5, 61);
+    background-color: black;
     padding: 15px 15px;
-    height: 60px;
+    height: 80px;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    opacity: 0.5;
+}
+.logo img{
+    height: 50px;
+    width: 60px;
+    margin: 10px 10px;
+    border:2px solid white;
+    border-radius: 50px;
+    
 }
 .navbar ul{
     display: flex;
@@ -30,11 +42,29 @@ body{
     padding: 3px 10px;
     text-decoration: none;
     color: aliceblue;
+    font-size: 20px;
     border-radius: 6px;
     transition: 0.3s;
 }
 
 .navbar li a:hover{
-    color:rgb(70, 34, 142);
+    color:black;
     background:white;
+}
+
+.search{
+    margin-left: auto;
+}
+
+.search input{
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+}
+.search input:focus{
+    width: 220px;
+    box-shadow: 0 0 10px wheat;
 }
